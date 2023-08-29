@@ -1,0 +1,145 @@
+.modal__btn--buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 44px;
+  border: 0px;
+  color: #d41443;
+  background-color: #fff;
+  border-radius: 22px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  flex-wrap: wrap;
+  padding-top: 7px;
+}
+
+.modal__svg--arrow {
+  margin-left: 135px;
+  margin-top: -18px;
+}
+
+.modal__navigator--list {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -40px;
+  margin-top: 30px;
+}
+
+.modal__navigator--list li {
+  margin-top: 20px;
+}
+
+.modal__navigator--list li:hover {
+  color: #d41443;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #111111bd;
+  display: flex;
+  transition: opacity 300ms ease, visibility 300ms ease;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__movil {
+  width: 254px;
+  height: 502px;
+  background: #e17992;
+  margin: auto;
+  padding: 40px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.modal__btn--close {
+  position: absolute;
+  display: flex;
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  margin-top: -32px;
+  border-radius: 50px;
+  margin-left: 248px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #e17992;
+  cursor: pointer;
+}
+
+.modal__close--btn--svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  fill: red;
+  margin-right: 12px;
+}
+
+.modal__icon-svg {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 11px;
+  left: 12px;
+}
+.modal__input-description {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  outline: none;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-color: #21212121;
+}
+
+.visually__hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 0px !important;
+  width: 0px !important;
+  overflow: hidden;
+  width: 16px;
+  height: 15px;
+}
+
+.modal__list {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -30px;
+  margin-top: -5px;
+}
+
+.modal__list li {
+  padding: 20px;
+}
